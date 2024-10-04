@@ -1,5 +1,8 @@
-## Cobblestone Project
+Here’s the complete modified documentation for your **Efficient Data Stream Anomaly Detection** project, including the new section on using `requirements.txt`:
 
+---
+
+## Cobblestone Project
 
 # Efficient Data Stream Anomaly Detection
 
@@ -55,23 +58,17 @@
 
 2. **Navigate to the Project Directory:**  
    ```bash
-   cd path_to_project_directory
+   cd Anomaly-Detection/
    ```
 
-3. **Create a Virtual Environment (Optional but Recommended):**  
-   ```bash
-   python3 -m venv venv
-   ```
-   Activate the virtual environment:
-   - **Linux/Mac:**
-     ```bash
-     source venv/bin/activate
-     ```
+3. **Create a Virtual Environment (Optional but Recommended)**  
 
-4. **Install Dependencies:**  
+4. **Install Dependencies from `requirements.txt`:**  
+   The project uses a `requirements.txt` file to manage its dependencies. To install the required packages, run:
    ```bash
    pip install -r requirements.txt
    ```
+   This command will install all the libraries specified in the `requirements.txt` file, ensuring that your environment is set up with the necessary packages for the project to run correctly.
 
 ## Usage
 
@@ -80,9 +77,10 @@
    ```bash
    python app.py
    ```
+   *(Ensure the script filename matches)*
 
 2. **Observe the Output:**  
-   - **CLI:**  
+   - **CLI Output:**  
      The command line will display each data point as it's processed, indicating whether it's normal or an anomaly. Anomalies will be highlighted in red.
    - **Visualization:**  
      A real-time plot will appear, showing the data stream with anomalies marked in red.
@@ -145,32 +143,27 @@ This project provides a foundational framework for real-time anomaly detection i
 1. **Ensure Python 3.x is Installed:**  
    Verify that Python 3.x is installed by running:
    ```bash
-   python --version
-   ```
-   or
-   ```bash
    python3 --version
    ```
 
-2. **Set Up Virtual Environment (Optional):**  
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate   # For Linux/Mac
-   venv\Scripts\activate      # For Windows
-   ```
+2. **Set Up a Virtual Environment (Optional but Recommended)**
+     ```
 
-3. **Install Dependencies:**  
+3. **Install Dependencies from `requirements.txt`:**  
+   The project uses a `requirements.txt` file to manage its dependencies. To install the required packages, run:
    ```bash
    pip install -r requirements.txt
    ```
+   This command will install all the libraries specified in the `requirements.txt` file, ensuring that your environment is set up with the necessary packages for the project to run correctly.
 
 4. **Run the Script:**  
+   Execute the Python script using the following command:
    ```bash
-   python anomaly_detection_realtime.py
+   python app.py
    ```
    *(Ensure the script filename matches)*
 
-5. **Observe Output:**  
+5. **Observe the Output:**  
    - **CLI Output:**  
      Each data point will be printed in the console, indicating whether it's normal or an anomaly. Anomalies will appear in red.
    - **Real-Time Plot:**  
@@ -191,4 +184,4 @@ This project provides a foundational framework for real-time anomaly detection i
 
 ---
 
-Feel free to reach out if you have any questions or need further assistance with your project. Happy coding!
+Feel free to reach out if you have any questions or need further assistance with my project. Happy hiring, to you guys!

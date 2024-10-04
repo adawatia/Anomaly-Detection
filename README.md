@@ -67,10 +67,6 @@
      ```bash
      source venv/bin/activate
      ```
-   - **Windows:**
-     ```bash
-     venv\Scripts\activate
-     ```
 
 4. **Install Dependencies:**  
    ```bash
@@ -82,9 +78,8 @@
 1. **Run the Script:**  
    Execute the Python script using the following command:
    ```bash
-   python anomaly_detection_realtime.py
+   python app.py
    ```
-   *(Assuming the script is named `anomaly_detection_realtime.py`)*
 
 2. **Observe the Output:**  
    - **CLI:**  
